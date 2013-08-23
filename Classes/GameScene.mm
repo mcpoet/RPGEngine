@@ -215,16 +215,16 @@
                 if ([t type]== kGameObjectPlayer)
                 {
                     b2Vec2 v =  b->GetLinearVelocity();
-                    // b->SetLinearVelocity(b2Vec2(1.0,2.0));
+//                    b->SetLinearVelocity(b2Vec2(1.0,2.0));
                     RE_Actor* p = (RE_Actor*) myActor;
                     [p mayTransite:v];
                 }
             }
             if ([myActor isKindOfClass:[RE_Bullet class]]) {
                 RE_Bullet* rb = (RE_Bullet*)myActor;
-//                [rb followHost];
+                [rb followHost];
             }
-		}	
+		}
 	}
     world->ClearForces();
 	

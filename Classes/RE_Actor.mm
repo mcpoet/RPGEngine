@@ -264,6 +264,7 @@
 
 - (short) nameIndex:(NSString*)name
 {
+    NSLog(@"name ? %@", name);
     NSArray* data = [actionBook valueForKey:name];
     if (data) {
         NSNumber* index = [data objectAtIndex:0];
@@ -480,11 +481,11 @@
         // THe spriteSheet make us put the animation action out of 
         // the RE_State
         [self playAction:[curState action_name] repeat:[curState repeat]];
-        RE_Bullet* bullet =  [curState bullet];
-        if (bullet) 
-        {
-            [bullet setoff:_world position:[self position]];
-        }
+//        RE_Bullet* bullet =  [curState bullet];
+//        if (bullet) 
+//        {
+//            [bullet setoff:_world position:[self position]];
+//        }
     }
 }
 

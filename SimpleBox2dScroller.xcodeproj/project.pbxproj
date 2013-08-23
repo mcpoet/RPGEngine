@@ -12,7 +12,7 @@
 		201946C715D8C04B00B871FC /* RE_ObservableDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 201946C615D8C04A00B871FC /* RE_ObservableDict.m */; };
 		201946CB15D8C16E00B871FC /* RE_EntityObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 201946CA15D8C16E00B871FC /* RE_EntityObserver.m */; };
 		203B6A2015C100CF009E139F /* BDS_Soifon_hallo.png in Resources */ = {isa = PBXBuildFile; fileRef = 203B6A1F15C100CF009E139F /* BDS_Soifon_hallo.png */; };
-		203B6A2315C10981009E139F /* actionBook2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 203B6A2215C1097F009E139F /* actionBook2.plist */; };
+		203B6A2315C10981009E139F /* actionBook.plist in Resources */ = {isa = PBXBuildFile; fileRef = 203B6A2215C1097F009E139F /* actionBook.plist */; };
 		203B6A2515C10A60009E139F /* stateMachine.plist in Resources */ = {isa = PBXBuildFile; fileRef = 203B6A2415C10A60009E139F /* stateMachine.plist */; };
 		20585A5D15C4C78E005B9EB6 /* RE_DataAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 20585A3115C4C78E005B9EB6 /* RE_DataAgent.m */; };
 		20585A5E15C4C78E005B9EB6 /* RE_ActionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 20585A3215C4C78E005B9EB6 /* RE_ActionFactory.m */; };
@@ -381,7 +381,7 @@
 		201946CA15D8C16E00B871FC /* RE_EntityObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RE_EntityObserver.m; sourceTree = "<group>"; };
 		203B6A1F15C100CF009E139F /* BDS_Soifon_hallo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BDS_Soifon_hallo.png; sourceTree = "<group>"; };
 		203B6A2115C10173009E139F /* frames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = frames.h; sourceTree = "<group>"; };
-		203B6A2215C1097F009E139F /* actionBook2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actionBook2.plist; sourceTree = "<group>"; };
+		203B6A2215C1097F009E139F /* actionBook.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = actionBook.plist; sourceTree = "<group>"; };
 		203B6A2415C10A60009E139F /* stateMachine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = stateMachine.plist; path = ../Resources/stateMachine.plist; sourceTree = "<group>"; };
 		20585A2D15C4C78E005B9EB6 /* RE_Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RE_Action.h; sourceTree = "<group>"; };
 		20585A2E15C4C78E005B9EB6 /* RE_Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RE_Action.m; sourceTree = "<group>"; };
@@ -455,8 +455,6 @@
 		504DFC0310AF1414006D82FE /* CLScoreServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLScoreServerRequest.m; sourceTree = "<group>"; };
 		504DFC0410AF1414006D82FE /* cocoslive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocoslive.h; sourceTree = "<group>"; };
 		504DFC0510AF1414006D82FE /* cocoslive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cocoslive.m; sourceTree = "<group>"; };
-		504DFC7310AF1758006D82FE /* LICENSE.cocos2d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.cocos2d; sourceTree = "<group>"; };
-		504DFC7410AF1758006D82FE /* LICENSE.cocosdenshion */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.cocosdenshion; sourceTree = "<group>"; };
 		50674860107A3B340090963A /* ZAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAttributedString.h; sourceTree = "<group>"; };
 		50674861107A3B340090963A /* ZAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAttributedString.m; sourceTree = "<group>"; };
 		50674862107A3B340090963A /* ZAttributedStringPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAttributedStringPrivate.h; sourceTree = "<group>"; };
@@ -756,7 +754,6 @@
 		E02BB968126CC28A006E46A2 /* ZipUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipUtils.h; sourceTree = "<group>"; };
 		E02BB969126CC28A006E46A2 /* ZipUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipUtils.m; sourceTree = "<group>"; };
 		E02BBA10126CC29D006E46A2 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
-		E0C5506C11FA3ABC00B9E4CB /* LICENSE.box2d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.box2d; sourceTree = "<group>"; };
 		E0F81061120A17DF005866B8 /* GameConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		E0F81062120A17DF005866B8 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		E0F81063120A17DF005866B8 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
@@ -869,23 +866,11 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		20585A7415C4C7BE005B9EB6 /* RE_CocosFront */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = RE_CocosFront;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				504DFC7310AF1758006D82FE /* LICENSE.cocos2d */,
-				504DFC7410AF1758006D82FE /* LICENSE.cocosdenshion */,
-				E0C5506C11FA3ABC00B9E4CB /* LICENSE.box2d */,
-				506EDAA3102F461B00A389B3 /* cocos2d Sources */,
-				2D500B1D0D5A766B00DBA0E3 /* Classes */,
-				20585A7415C4C7BE005B9EB6 /* RE_CocosFront */,
+				506EDAA3102F461B00A389B3 /* cocos2d libs */,
+				2D500B1D0D5A766B00DBA0E3 /* SimplePlatformer */,
 				20585A2B15C4C754005B9EB6 /* RE_Engine */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				50F4144210692EE7002A0D5E /* Resources */,
@@ -920,7 +905,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2D500B1D0D5A766B00DBA0E3 /* Classes */ = {
+		2D500B1D0D5A766B00DBA0E3 /* SimplePlatformer */ = {
 			isa = PBXGroup;
 			children = (
 				3956C4741332A1630010CFC2 /* Constants.h */,
@@ -944,11 +929,12 @@
 				E0F81063120A17DF005866B8 /* RootViewController.m */,
 				1F3B9A2C0EF2145700286867 /* SimpleBox2dScrollerAppDelegate.h */,
 				1F3B9A2B0EF2145700286867 /* SimpleBox2dScrollerAppDelegate.mm */,
-				203B6A2215C1097F009E139F /* actionBook2.plist */,
+				203B6A2215C1097F009E139F /* actionBook.plist */,
 				20585A8D15C7BA72005B9EB6 /* actionNames.plist */,
 				20585A8F15C7BA90005B9EB6 /* attributeBook.plist */,
 				203B6A2415C10A60009E139F /* stateMachine.plist */,
 			);
+			name = SimplePlatformer;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -966,7 +952,7 @@
 			path = libs/cocoslive;
 			sourceTree = "<group>";
 		};
-		506EDAA3102F461B00A389B3 /* cocos2d Sources */ = {
+		506EDAA3102F461B00A389B3 /* cocos2d libs */ = {
 			isa = PBXGroup;
 			children = (
 				E02BB8BF126CC28A006E46A2 /* cocos2d */,
@@ -976,7 +962,7 @@
 				50F41306106926B2002A0D5E /* FontLabel */,
 				50F41311106926B2002A0D5E /* TouchJSON */,
 			);
-			name = "cocos2d Sources";
+			name = "cocos2d libs";
 			sourceTree = "<group>";
 		};
 		507ED65211C638E2002ED3FC /* CocosDenshion */ = {
@@ -1650,7 +1636,7 @@
 				E02BBA11126CC29D006E46A2 /* iTunesArtwork in Resources */,
 				3930A9FB12DFA0AB001D8E36 /* scroller.tmx in Resources */,
 				203B6A2015C100CF009E139F /* BDS_Soifon_hallo.png in Resources */,
-				203B6A2315C10981009E139F /* actionBook2.plist in Resources */,
+				203B6A2315C10981009E139F /* actionBook.plist in Resources */,
 				203B6A2515C10A60009E139F /* stateMachine.plist in Resources */,
 				20585A6C15C4C78E005B9EB6 /* character_book.plist in Resources */,
 				20585A6F15C4C78E005B9EB6 /* sprites.plist in Resources */,
