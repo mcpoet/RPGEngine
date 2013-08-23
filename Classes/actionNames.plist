@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fist</key>
+	<dict>
+		<key>health</key>
+		<string>SharpAttack:</string>
+	</dict>
+	<key>dash</key>
+	<dict>
+		<key>health</key>
+		<string>ShallowAttack:</string>
+	</dict>
+	<key>attk</key>
+	<dict>
+		<key>health</key>
+		<string>SharpAttack:</string>
+	</dict>
+	<key>medic</key>
+	<dict>
+		<key>health</key>
+		<string>MedicHeal:</string>
+	</dict>
+	<key>magic</key>
+	<dict>
+		<key>health</key>
+		<string>MagicHeal:</string>
+	</dict>
+	<key>defend</key>
+	<dict>
+		<key>health</key>
+		<string>MedicHeal:</string>
+	</dict>
+	<key>escape</key>
+	<dict>
+		<key>health</key>
+		<string>MagicHeal:</string>
+	</dict>
+</dict>
+</plist>

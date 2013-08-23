@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>health</key>
+	<real>314</real>
+	<key>sharpness</key>
+	<real>314</real>
+	<key>strength</key>
+	<real>314</real>
+	<key>solidness</key>
+	<real>314</real>
+	<key>agility</key>
+	<real>314</real>
+	<key>magic</key>
+	<integer>10</integer>
+	<key>struggle</key>
+	<integer>10</integer>
+	<key>isDizzy</key>
+	<integer>10</integer>
+	<key>isPoisioned</key>
+	<integer>10</integer>
+	<key>isStoned</key>
+	<integer>10</integer>
+	<key>isBurned</key>
+	<integer>10</integer>
+	<key>isFrozen</key>
+	<integer>10</integer>
+</dict>
+</plist>
